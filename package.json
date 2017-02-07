@@ -1,0 +1,34 @@
+{
+  "name": "gulp-check-unused-image",
+  "version": "1.0.0",
+  "description": "Check unused image files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsae1/gulp-check-unused-image.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "unused",
+    "image",
+    "unused image"
+  ],
+  "author": {
+    "name": "kingsae1",
+    "email": "kingsae1@naver.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsae1/gulp-check-unused-image/issues"
+  },
+  "dependencies": {
+    "through2": "0.6.1",
+    "rocambole" : "",
+    "gulp-util" : ""
+  },
+  "homepage": "https://github.com/kingsae1/gulp-check-unused-image#readme"
+}
