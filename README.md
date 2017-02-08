@@ -1,4 +1,12 @@
 # gulp-check-unused-image
+In your project, you will add lots of images you don't know. This plugin will help you check unused image files in your code
+Support Type : jpg,gif,bmp,png,tif,raw,psd
+
+```
+//example
+// if you have 'sample.png' file, it try to match your code
+var image_file = "/image/sample.png";
+```
 
 ## Usage
 
@@ -34,3 +42,4 @@ This plugin will throw errors on the file stream and it is up to you to handle t
 ### Changelog
 #### 2017/02/07 - 1.0.0 - First release
 #### 2017/02/07 - 1.0.1 - Release Readme.md
+#### 2017/02/08 - 1.0.2 - Add image types (jpg,gif,bmp,tif,raw,psd)
